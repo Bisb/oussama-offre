@@ -10,6 +10,6 @@ services:
     environment:
       - NODE_ENV=production
       - PORT=3001
-    volume:
+    volumes:
       - ./:/app
     restart: unless-stopped
